@@ -171,14 +171,14 @@ body {
     justify-content: space-around;
     margin-top: 100px;
 }
-.collection_1_img
+.collection_1_img, .new-item-img
 {
     width: 260px;
     height: 325px;
     background: #191B1C;
 
 }
-.collection_1_img img
+.collection_1_img img, .new-item-img img 
 {
     margin: 55px 24px 54px 23px;
 }
@@ -218,3 +218,199 @@ body {
     border: 1px solid #FFFFFF;
     padding: 12px 28px;
 }
+
+.new-items {
+    background-color: #000000;
+    font-family: 'Playfair Display', serif;
+    color: #ffffff;
+    height:  1289px;
+    text-align: center;
+}
+.new-items h2 
+{
+    font-weight: bold;
+    font-size: 36px;
+    padding-top: 120px;
+    padding-bottom: 81px;
+}
+.new-items-wrapper
+{
+    max-width: 1110px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.new-item 
+{
+    margin-top: 40px;
+}
+.new-item-descr
+{
+    margin-top: 25px;
+    text-align: left;
+}
+.new-item-descr p 
+{
+    margin-top: 10px;
+}
+.brands
+{
+    height: 362px;
+    background: #0F0F0F;
+    color: #ffffff; 
+    font-style: normal;
+    font-size: 36px;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+}
+.brands h1 
+{
+    padding-top: 60px;
+}
+.brands-wrapper
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+.about_shop
+{
+    height: 400px;
+    background-image: url(../img/about-shop.png);
+}
+.about_shop-wrapper
+{
+    width: 1100px;
+    margin: auto;
+    display: flex;
+    padding-top: 80px;
+}
+.about_shop-descr
+{
+    width: 350px;
+}
+.about_shop-descr h1{
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    color: #FFFFFF;
+    padding-bottom: 40px;
+}
+.about_shop-descr p 
+{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+.about_shop-categorys
+{
+    width: 400px;
+    margin-left: 31px;
+    color: #ffffff;
+    font-family: Playfair Display;
+    font-style: normal;
+
+}
+.about_shop-categorys h1
+{
+    font-weight: normal;
+    font-size: 24px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+.about_shop-categorys-wrapper
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.category-1, .category-2, .category-3, .category-4, .category-5
+{
+    font-family: Playfair Display;
+    width: 70px;
+    height: 41px;
+    left: 786px;
+    top: 4061px;
+    background: #0F0F0F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+    
+.category-4
+{
+    width: 164px;
+}
+.category-2
+{
+    width: 90px;
+}
+.category-2, .category-3, .category-5
+{
+    margin-left: 20px;
+}
+.category-1 a , .category-2 a, .category-3 a, .category-4 a, .category-5 a
+{
+    text-decoration: none;
+    color: #ffffff;
+}
+.about_shop-newsletter
+{
+    width: 350px;
+    font-family: Playfair Display;
+}
+.about_shop-newsletter h1
+{
+    font-weight: normal;
+    font-size: 24px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+.about_shop-newsletter p
+{
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #FFFFFF;
+    margin-top: 40px;
+    margin-bottom: 38px;
+}
+.about_shop-newsletter input
+{
+    width: 210px;
+    height: 38px;
+    background: rgba(255, 255, 255, 0.4);
+    color: #ffffff;
+}
+.about_shop-newsletter button
+{
+    padding: 10px 20px 15px 10px;
+    margin-left: -5px ;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #FFFFFF;
+    background-color: #000;
+    font-family: Playfair Display;
+    border: none;
+}
+input[type="text"]::-webkit-input-placeholder {
+    color: #ccc;
+}
+
+
+footer
+{
+    height: 50px;
+    background: #0F0F0F;
+    color: #FFFFFF;
+    padding-left: 405px;
+    padding-top: 30px;
+}
+
+
